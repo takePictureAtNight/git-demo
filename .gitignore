@@ -1,26 +1,20 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Maven template
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+/.settings
+/bin
+*/target/*
+/logs
+*/out/
 
-.idea/
-
-## File-based project format:
-*.iws
+# filter config files, except .gitignore
+*.MF
+!.gitignore
 *.iml
-*.ipr
-
-## Plugin-specific files:
-
-# IntelliJ
-/out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+*.exe
+# eclipse ignore
+.project
+.classpath
+# IDEA ignore
+.idea
+.class
+*.class
+*.log
+!application.properties
