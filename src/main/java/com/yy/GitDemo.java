@@ -9,5 +9,6 @@ public class GitDemo {
         System.out.println("hot-fix冲突测试...");
         System.out.println("测试拉取...");
         System.out.println("第二次测试拉取...");
+         System.out.println("第3次测试拉取...");
     }
 }
