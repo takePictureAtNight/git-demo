@@ -12,5 +12,6 @@ public class GitDemo {
         System.out.println("11111");
         System.out.println("4444");
         System.out.println("6666");
+        System.out.println("777");
     }
 }
